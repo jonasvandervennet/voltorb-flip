@@ -2,6 +2,8 @@
 
 This is a Windows Form App to help deciding your best play when battling Mr. Game at a round of [Voltorb Flip](https://bulbapedia.bulbagarden.net/wiki/Voltorb_Flip). There is another solver out there, you can find it [here](http://voltorbflip.com/). This desktop application does not require you to input bounds, however, as these are parsed automatically.
 
+This is just some quickly thrown together code, and I know it is very, very unstructured and extremely ugly. It works though
+
 ## Introduction
 
 For those that are not aware, Voltorb Flip is a luck-based game where cards are placed top-down in a 5x5 grid. Card can be either 1, 2, 3 or a Voltorb. Each row/column has a restriction both in terms of total value and number of Voltorbs it can contain.
@@ -29,3 +31,9 @@ In this case the golden question mark was covering a 3.
 <img src="docs/board_limited_information.png" alt="This grid layour does not seem to contain very much information at first glance." width="49%"/><img src="docs/useful_hint_vtbf.png" alt="The solver reveals every useful card to flip immediately." width="49%"/>
 
 This grid layour does not seem to contain very much information at first glance. However, the solver can immediately reveal every card required to beat the level.
+
+## Usage
+
+To use this, simply open op your favourite Nintendo DS emulator (like Desmume), start a SoulSilver playthrough and get to Goldenrod City. The application will be able to read the game data as long as the small screen where the game is played is visible on any one of your monitors and you click the 'START' button. 
+
+Have fun!
